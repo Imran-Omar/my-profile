@@ -1,0 +1,118 @@
+
+.container {
+  width: 620px;
+  margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+
+ .container {
+   width: 700px;
+ }
+}
+
+@media (max-width: 720px) {
+
+ .container {
+   width: 500px;
+ }
+}
+
+@media (max-width: 540px) {
+
+ .container {
+  width: 300px;
+ }
+}
+
+.card-white {
+   background: #ffffff;                         
+   padding: 30px;                             
+   border-radius: 5px;                        
+   text-align: left;
+   box-shadow: 0 5px 30px rgba(82,0,97,0.1);
+   margin-bottom: 15px;
+}
+
+.img-carre {
+  margin-top: 20px;
+  border-radius: 1px;
+  border: solid 1px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 200px;
+  height: 200px;
+}
+
+.social-inline {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.card3btn-margintop {
+  margin-top: 45px;
+  margin-bottom: 16px;
+}
+
+.btn-purple {
+  background: #110014;
+  color: white;
+  padding: 11px 45px;
+  border-radius: 3px;
+}
+
+.btn-purple:hover {
+  background-color: #693975;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 25px;
+  color: #110014;
+}
+
+.list-inline i:hover {
+  color: #693975;
+}
+
+body {
+  background-color: #fefcff;
+  font-family: 'Sarabun', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  color: #110014;
+  font-family: 'Cinzel', serif;
+}
+
+h2 {
+  color: #110014;
+
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color:#110014;
+}
+
+a:hover {
+  color:#693975;
+}
+
+
+
+
